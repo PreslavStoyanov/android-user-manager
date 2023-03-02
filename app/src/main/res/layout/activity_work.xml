@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".WorkActivity">
+
+    <Button
+            android:id="@+id/search_button"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/search"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="200dp"
+            android:layout_marginStart="16dp" />
+
+    <Button
+            android:id="@+id/all_users_button"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/all_users"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="200dp"
+            android:layout_marginEnd="16dp" />
+
+    <Button
+            android:id="@+id/add_user_button"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/add_user"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="124dp"
+            android:layout_marginStart="16dp" />
+
+    <Button
+            android:id="@+id/delete_user_button"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/delete_user"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="124dp"
+            android:layout_marginEnd="16dp" />
+
+    <Button
+            android:id="@+id/logout_button"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/logout"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="32dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

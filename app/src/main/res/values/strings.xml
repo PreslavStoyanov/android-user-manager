@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">user-manager</string>
+    <string name="username">username</string>
+    <string name="empty" />
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="delete_user">delete user</string>
+    <string name="add_user">add user</string>
+    <string name="all_users">all users</string>
+    <string name="search">search</string>
+    <string name="logout">logout</string>
+    <string name="userView">\nId: %d, Name: %s, Pass: %s</string>
+    <string name="back">back</string>
+    <string name="clear">clear</string>
 </resources>
